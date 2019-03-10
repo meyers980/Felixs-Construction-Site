@@ -4,7 +4,7 @@ An original game mimicking the Game and Watch Tabletop games of the past. Plays 
 This game was an experiment to replicate a Game and Watch game with Game Maker Studio 2 that can use an Arduino Leonardo for the controls and also power an LED light based on gameplay.
 
 ![Image of Gameboard](http://sergiostuff.com/wp-content/uploads/2019/03/Play-and-Clock-All-Vectors-10.png)
-See video of gameplay here: https://youtu.be/4uOqy9WCo4k
+* See video of gameplay here: https://youtu.be/4uOqy9WCo4k
 
 ## Controls
 * Left Arrow = Move Left
