@@ -12,7 +12,7 @@ This game was an experiment to replicate a Game and Watch game with Game Maker S
 * 1 = Start game
 
 ## Settings
-Adjust the settings in settings.ini of the game folder to enable arduino functions and set the difficulty.
+Adjust the settings in settings.ini of the game folder to enable arduino functions and set the difficulty. This is also where you set your arduino's COM port.
 
 ## Arduino
 Upload all the arduino files to a Leonardo board (may also work with other boards but haven't tested). The Leonardo will emulate a keyboard, so feel free to customize the controls first. You don't need to use the arduino to control the game, any keyboard will work too.
