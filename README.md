@@ -23,3 +23,4 @@ Connect an led (following proper procedure) to Pin 13 of your arduino.
 I modeled a shell replicating the Game and Watch Tabletop games (such as Mario's Cement Factory). It assembles with pins and has a mount for a 4.3" lcd.
 
  ![Image of 3D Printed Shell](http://sergiostuff.com/wp-content/uploads/2019/01/IMG_20190128_115456.jpg)
+ On the left is an original Game and Watch Tabletop, on the right is my recreation.
