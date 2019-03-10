@@ -1,5 +1,5 @@
 # Felix's-Construction-Site
-An original game mimicking the Game and Watch games of the past. Plays on Windows, interacts with arduino.
+An original game mimicking the Game and WatchfTabletop games of the past. Plays on Windows, interacts with arduino.
 
 This game was an experiment to replicate a Game and Watch game with Game Maker Studio 2 that can use an Arduino Leonardo for the controls and also a light.
 
@@ -18,3 +18,6 @@ Adjust the settings in settings.ini of the game folder to enable arduino functio
 Upload all the arduino files to a Leonardo board (may also work with other boards but haven't tested). The Leonardo will emulate a keyboard, so feel free to customize the controls first. You don't need to use the arduino to control the game, any keyboard will work too.
 
 Connect an led (following proper procedure) to Pin 13 of your arduino.
+
+## 3D Shell
+I modeled a shell replicating the Game and Watch Tabletop games (such as Mario's Cement Factory). It assembles with pins and has a mount for a 4.3" lcd.
