@@ -1,5 +1,5 @@
 # Felix's-Construction-Site
-An original game mimicking the Game and WatchfTabletop games of the past. Plays on Windows, interacts with arduino.
+An original game mimicking the Game and Watch Tabletop games of the past. Plays on Windows, interacts with arduino.
 
 This game was an experiment to replicate a Game and Watch game with Game Maker Studio 2 that can use an Arduino Leonardo for the controls and also a light.
 
