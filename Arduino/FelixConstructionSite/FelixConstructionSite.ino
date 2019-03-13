@@ -12,7 +12,7 @@ const uint8_t rp_pins[] = { BTN_JOYSTICK_LEFT, BTN_JOYSTICK_RIGHT, BTN_JOYSTICK_
 const uint8_t rp_keys[] = { KEY_LEFT_ARROW,   KEY_RIGHT_ARROW,   KEY_DOWN_ARROW,       KEY_UP_ARROW,       '1',       '5',      KEY_RETURN,  'c',               'x',                  KEY_LEFT_ALT,                KEY_LEFT_CTRL               };
 
 static button_state button_states[RP_BUTTON_COUNT] = {};
-bool on = false;
+int superled = 9;
 void setup() {
   Serial.begin(9600);
   //while(!Serial);
@@ -63,15 +63,20 @@ void loop() {
   int result;
   result = Serial.parseInt();
   if (result == 1)
-    on = true;
+    superled = 1;
   else if (result == 2)
-    on = false;
-  if (on) {
+    superled = 2;
+   else if (result == 9)
+    superled = 9;
+  if (superled == 1) { // super power LED
     digitalWrite(13, HIGH);
     delay(100);
     digitalWrite(13, LOW);
     delay(100); }
-  else {
+  else if (superled == 2) { //attract mode LED
+    digitalWrite(13, HIGH);  
+  }
+  else { //turn off LED
     digitalWrite(13, LOW);
 
   delay(1); }
