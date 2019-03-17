@@ -11,6 +11,9 @@ This game was an experiment to replicate a Game and Watch game with Game Maker S
 * Right Arrow = Move Right
 * Left-Ctrl = Use powerup
 * 1 = Start game
+* 1+2 = Exit Game
+* Esc = Exit Game
+* F12 = Toggle Fullscreen
 
 ## Settings
 Adjust the settings in settings.ini of the game folder to enable arduino functions and set the difficulty. This is also where you set your arduino's COM port.
