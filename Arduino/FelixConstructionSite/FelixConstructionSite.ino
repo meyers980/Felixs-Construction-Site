@@ -68,12 +68,12 @@ void loop() {
     superled = 2;
    else if (result == 9)
     superled = 9;
-  if (superled == 1) { // super power LED
+  if (superled == 1) { // Blink LED
     digitalWrite(13, HIGH);
     delay(100);
     digitalWrite(13, LOW);
     delay(100); }
-  else if (superled == 2) { //attract mode LED
+  else if (superled == 2) { //Solid on LED
     digitalWrite(13, HIGH);  
   }
   else { //turn off LED

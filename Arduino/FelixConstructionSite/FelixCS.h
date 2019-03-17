@@ -11,9 +11,8 @@
 #define BTN_COIN                2 // 
 #define BTN_PLUNGER              6 // 
 
-// Back buttons labeled as if looking
-// directly at them with the back of 
-// the pinball machine facing you
+// Spare buttons below
+// Mapped to standard MAME controls
 
 #define BTN_1       A0 // 
 #define BTN_2    A1 // 
